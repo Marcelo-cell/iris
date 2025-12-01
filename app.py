@@ -13,8 +13,8 @@ import altair as alt
 
 # ------------------ CONFIGURACIÓN GENERAL ------------------
 st.set_page_config(
-    page_title="Iris Predictor",
-    page_icon="🌺",
+    page_title="Predicción de Iris",
+    page_icon="🥀",
     layout="wide",
 )
 
@@ -119,7 +119,7 @@ with st.sidebar:
     st.image("BCP.jpg", use_column_width=False)
     st.markdown("</div>", unsafe_allow_html=True)
 
-    st.markdown("### 🌺 Iris Predictor")
+    st.markdown("### 🥀 Predicción de Iris")
     st.caption("Desplegado en Streamlit | Curso ISIL")
 
     pagina = st.selectbox(
@@ -144,7 +144,7 @@ with st.sidebar:
 if pagina == "Introducción":
 
     st.markdown(
-        '<div class="main-title">Iris Predictor 🌺</div>', unsafe_allow_html=True
+        '<div class="main-title">Predicción de Iris 🥀</div>', unsafe_allow_html=True
     )
     st.markdown(
         '<div class="sub-title">Modelos de Predicción del dataset Iris del curso ISIL con BCP</div>',
